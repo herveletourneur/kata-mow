@@ -2,8 +2,12 @@ package org.mow.it.now.controller;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mow.it.now.domain.IMowSimulationService;
-import org.mow.it.now.domain.model.SimulationResult;
+import org.mow.it.now.application.controller.ConsolePrinter;
+import org.mow.it.now.application.controller.DefaultSimulationController;
+import org.mow.it.now.application.controller.ISimulationController;
+import org.mow.it.now.application.controller.Printer;
+import org.mow.it.now.application.domain.IMowSimulationService;
+import org.mow.it.now.core.SimulationResult;
 import org.mow.it.now.utils.ArgumentCaptor;
 
 import java.util.Collections;

@@ -2,6 +2,8 @@ package org.mow.it.now.domain.model;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mow.it.now.core.InvalidProgrammedMowActionLabelException;
+import org.mow.it.now.core.ProgrammedMowAction;
 
 class ProgrammedMowActionLabelTest {
     @Test

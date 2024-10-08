@@ -3,6 +3,7 @@ package org.mow.it.now.domain.model;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mow.it.now.common.BeanValidationException;
+import org.mow.it.now.core.Ordinate;
 
 class OrdinateTest {
     @Test

@@ -2,15 +2,15 @@ package org.mow.it.now;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mow.it.now.controller.DefaultSimulationController;
-import org.mow.it.now.controller.ISimulationController;
-import org.mow.it.now.controller.Printer;
-import org.mow.it.now.domain.DefaultMowSimulationService;
-import org.mow.it.now.domain.IMowSimulationService;
-import org.mow.it.now.domain.model.SimulationResult;
-import org.mow.it.now.port.MowSimulationFileAdapter;
-import org.mow.it.now.port.MowSimulationRetriever;
-import org.mow.it.now.port.ProgrammatedMowMapper;
+import org.mow.it.now.application.controller.DefaultSimulationController;
+import org.mow.it.now.application.controller.ISimulationController;
+import org.mow.it.now.application.controller.Printer;
+import org.mow.it.now.application.domain.DefaultMowSimulationService;
+import org.mow.it.now.application.domain.IMowSimulationService;
+import org.mow.it.now.core.SimulationResult;
+import org.mow.it.now.application.port.MowSimulationFileAdapter;
+import org.mow.it.now.application.port.MowSimulationRetriever;
+import org.mow.it.now.application.port.ProgrammatedMowMapper;
 import org.mow.it.now.utils.ArgumentCaptor;
 
 import java.util.List;

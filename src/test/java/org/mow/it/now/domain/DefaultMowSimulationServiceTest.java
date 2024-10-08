@@ -2,9 +2,10 @@ package org.mow.it.now.domain;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mow.it.now.domain.model.*;
-import org.mow.it.now.port.FileNotFoundException;
-import org.mow.it.now.port.ProgrammedMowBuilder;
+import org.mow.it.now.application.domain.DefaultMowSimulationService;
+import org.mow.it.now.application.domain.IMowSimulationService;
+import org.mow.it.now.core.*;
+import org.mow.it.now.application.port.FileNotFoundException;
 
 import java.io.IOException;
 import java.util.Collections;
