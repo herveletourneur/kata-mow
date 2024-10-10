@@ -27,7 +27,7 @@ Si une erreur se présente lors du traitement, le fichier sera déplace dans don
 
 Les dossier in, out et done sont paramétrable dans le fichier de properties du projet.
 
-### Question sur le pacckaging
+### Question sur le packaging ?
 
 ![image](https://github.com/user-attachments/assets/ccd9438a-09d9-494d-a41d-93e70026f0d9)
 
