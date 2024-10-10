@@ -2,6 +2,9 @@
 
 Mettre des données de simulations tel que décrite dans la spécification dans le fichier mow_simulation et lancer la méthode Main de la classe MowItNowApplication.
 
+Ou démarrer une l'application : MowItNowBatchApplication. Une application non web spring se lancera avec un file poller qui detectera la présence
+de fichier dans le repertoire in définit dans les properties de l'application
+
 ### Question sur la spécification ?
 
 1- Est ce que les coordonnées peuvent être négatives ?
@@ -23,3 +26,8 @@ Il scrutera un repertoire in, placera le résultat du traitement dans out suffix
 Si une erreur se présente lors du traitement, le fichier sera déplace dans done en le suffixant avec ERROR, une exception sera loggué.
 
 Les dossier in, out et done sont paramétrable dans le fichier de properties du projet.
+
+### Question sur le pacckaging
+
+![image](https://github.com/user-attachments/assets/ccd9438a-09d9-494d-a41d-93e70026f0d9)
+
