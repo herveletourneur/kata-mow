@@ -24,7 +24,7 @@ public class ProgrammatedMowMapper {
 
     private void validateRawMow(String[] rawMow) {
         if (rawMow.length != 4) {
-            throw new InvalidFileContentException("A mow must be contain 4 value separated");
+            throw new InvalidFileContentException("A mow must contain 4 values");
         }
     }
 }
